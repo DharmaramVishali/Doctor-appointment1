@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #f1f1f1;
+}
+
+.fakeimg {
+  background-color: #aaa;
+  background-image:url("https://www.bajajfinserv.in/10_Questions_to_think_about_when_looking_for_a_doctor_img_13Questions%20to%20think%20about%20when%20looking%20for%20a%20doctor.jpg");
+  height:60%;
+  width: 100%;
+  padding: 20px;
+}
+.fakeimg1 {
+  background-color: #aaa;
+  background-image:url("https://previews.123rf.com/images/279photo/279photo1612/279photo161204741/68177352-concept-of-appointment-to-doctor-online-top-view-on-wooden-background.jpg");
+  height:60%;
+  width: 100%;
+  padding: 20px;
+}
+.fakeimg2 {
+  background-color: #aaa;
+ backgound-image:url("https://cdn.pixabay.com/photo/2016/02/06/09/56/science-1182713_960_720.jpg");
+   height:60%;
+  width: 100%;
+  padding: 20px;
+} 
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: #1abc9c;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+.fakeimg4 {
+  background-color: #aaa;
+ backgound-image:url("https://image.shutterstock.com/image-vector/design-flyers-banners-brochures-cards-450w-380797855.jpg");
+   height:60%;
+  width: 100%;
+  padding: 20px;
+}
+
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: indianred;
+  margin-top: 20px;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>Online Doctor Appointment</h1>
+</div>
+
+<div class="topnav">
+  <a href="#home">Home</a>
+  <a href="file:///C:/Users/A/eclipse-vishali/DoctorApp/WebContent/contact.html">Contact</a>
+  <a href="file:///C:/Users/A/Desktop/abt-us.html">About</a>
+  <a href="file:///C:/Users/A/eclipse-vishali/DoctorApp/WebContent/login.html">Login</a>
+  <a href="file:///C:/Users/A/eclipse-vishali/DoctorApp/WebContent/signup.html" style="float:right">Signup</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Our Service</h2>
+      <h3>We care for you...</h3>
+      <div class="fakeimg" style="height:200px;">
+      </div>
+      <p>Prescription</p>
+      <p>Online prescription is easy...for consulting respective doctor and following his suggestions would be easier rather than offline</p>
+    </div>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Title description, Sep 2, 2017</h5>
+      <div class="fakeimg1" style="height:480px;"></div>
+      <p><h2 style="color:blue";>A 24/7 support team that’s got your back</h2></p>
+      <p>Our team of support specialists is available around the clock to ensure continued access to your appointment calendar. Need help or have a question? </p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>We Recommend</h2>
+      <div class="fakeimg2" style="height:70px;"></div>
+      <p>Some important websites to be checked!!</p>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg3"><p>add1</p></div>
+      <div class="fakeimg4"><p></p>add2</div>
+      <div class="fakeimg5"><p>add3</p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>insta id:-vishali_dharmaram</p><h3>Contact me</h3>
+      <p>vishali77990@gmail.com</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <h2><b>Book appointments in and out of the clinic</b></h2>
+</div>
+
+</body>
+</html>
